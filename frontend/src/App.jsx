@@ -20,9 +20,8 @@ import MainLayout from "./layouts/MainLayout";
 import ProjectDetails from "./pages/ProjectDetails";
 
 import TeamInvite from "./pages/teams/TeamInvite";
-import ProjectsCard from "./components/projects/ProjectsCard";
-import Projects from "./pages/Projects";
 import Tasks from "./pages/Tasks";
+import Projects from "./pages/Projects";
 import ProjectChats from "./pages/ProjectChatsList";
 import ProjectChatPage from "./pages/ProjectChatPage";
 
