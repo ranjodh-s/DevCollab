@@ -24,7 +24,7 @@ import ProjectsCard from "./components/projects/ProjectsCard";
 import Projects from "./pages/Projects";
 import Tasks from "./pages/Tasks";
 import ProjectChats from "./pages/ProjectChatsList";
-import ProjectChat from "./pages/ProjectChatPage";
+import ProjectChatPage from "./pages/ProjectChatPage";
 
 function App() {
 
@@ -108,7 +108,7 @@ function App() {
 
                         <Route
                             path="/team/:teamId/project/:projectId/chat"
-                            element={<ProjectChat />}
+                            element={<ProjectChatPage />}
                         />
 
 
